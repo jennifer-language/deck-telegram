@@ -1,0 +1,16 @@
+[package]
+name = "@jennifer/telegram"
+version = "0.1.0"
+description = "A Telegram Bot API client"
+license = "LGPL-3.0-only"
+authors = ["mplx <mplx@jennifer-lang.dev>"]
+capabilities = ["net"]
+keywords = ["telegram", "bot", "chat", "notifications"]
+
+[package.urls]
+deck = "https://raw.githubusercontent.com/jennifer-language/deck-telegram/main/deck.toml"
+homepage = "https://github.com/jennifer-language/deck-telegram"
+manual = "https://jennifer-language.github.io/deck-telegram/"
+
+[engines]
+jennifer = ">=0.26.0"
